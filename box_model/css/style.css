@@ -1,0 +1,36 @@
+#main {
+    background-color: rgb(250, 239, 230);
+    padding: 30px;
+}
+
+#content {
+    background-color: #cd8e5a;
+    border: 5px solid rgb(139, 72, 0);
+    color: rgb(255, 243, 229);
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+#content > div {
+    margin: 16px 0px;
+}
+
+#quote_content {
+    margin-left: 48px;
+}
+
+#quote_citation {
+    margin-left: 72px;
+}
+
+#top_heading {
+    color: rgb(84, 46, 0);
+}
+
+#intro {
+    color: rgb(84, 46, 0);
+}
+
+#footer {
+    color: rgb(84, 46, 0);
+}
