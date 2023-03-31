@@ -1,0 +1,61 @@
+nav {
+    float: left;
+    margin: 24px;
+}
+
+.card {
+    float: right;
+    border: 2px solid lightgrey;
+    background-color: whitesmoke;
+    margin-left: 24px
+}
+
+.image_container {
+    float: left;
+    border: 2px solid lightgrey;
+    margin-right: 24px;
+    width: 250px
+}
+
+.image_container p {
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+.image_container2 {
+    float: right;
+    border: 2px solid lightgrey;
+    background-color: whitesmoke;
+    margin-left: 24px;
+    width: 215px
+}
+
+.image_container2 p {
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+.image_container3 {
+    float: right;
+    border: 2px solid lightgrey;
+    background-color: whitesmoke;
+    margin-left: 24px;
+    width: 460px
+}
+
+.image_container3 p {
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}    
+
+.bold {
+    font-weight: bold;
+}
+
+.bold_and_italics {
+    font-weight: bold;
+    font-style: italic;
+}
