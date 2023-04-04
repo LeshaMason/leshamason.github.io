@@ -54,8 +54,8 @@ li a {
     top: 100%;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     ul {
         flex-direction: column;
     }
-}*/
+}
