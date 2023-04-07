@@ -74,8 +74,6 @@ section p {
 
 img {
     width: 700px;
-    float: left;
-    margin: 24px;
 }
 
 @media screen and (max-width: 768px) {
