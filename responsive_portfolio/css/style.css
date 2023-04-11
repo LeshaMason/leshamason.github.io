@@ -187,7 +187,7 @@ footer ul {
     transition: transform 0.25s;
 }
 
-#hero a,
+#hero a:hover,
 .card a:hover {
     transform: scale(1.1);
 }
