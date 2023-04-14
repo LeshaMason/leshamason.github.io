@@ -99,11 +99,15 @@ footer {
 nav {
     align-items: center;
     display: flex;
-    margin: 0px 24px;
+    margin: 0 24px;
 }
 
 nav img {
     height: 90px;   
+}
+
+#logo_container {
+    flex: 1;
 }
 
 footer {
@@ -123,12 +127,12 @@ footer {
 
 #nav_links li,
 .social_media li {
-    padding: 0px 4px;
+    padding: 0 4px;
 }
 
 nav .social_media {
     justify-content: flex-end;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 .social_media i {
@@ -148,12 +152,12 @@ footer a:hover {
 
 nav ul {
     flex: 1;
-    margin: 10px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 footer ul {
-    padding: 1px;
+    padding: 1;
 }
 
 
