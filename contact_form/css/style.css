@@ -38,8 +38,7 @@ p {
 #middle_name_id,
 #last_name_id,
 #email_id,
-#phone_number_id,
-#password_id {
+#phone_number_id {
     border: 0px;
     border-bottom: 4px solid lightsalmon
 }
@@ -48,8 +47,7 @@ p {
 #middle_name_id:focus-visible,
 #last_name_id:focus-visible,
 #email_id:focus-visible,
-#phone_number_id:focus-visible,
-#password_id:focus-visible {
+#phone_number_id:focus-visible {
     outline: 0;
     background-color: lightsalmon;
     color: white;
