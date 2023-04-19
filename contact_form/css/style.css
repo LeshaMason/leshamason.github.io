@@ -53,6 +53,14 @@ p {
     color: white;
 }
 
+input:not(focus):not(:placeholder-shown):invalid {
+    background-color: rgb(255, 74, 74);
+}
+
+input:not(focus):not(:placeholder-shown):valid {
+    background-color: rgb(79, 182, 132);
+}
+
 textarea {
     height: 100px;
     width: 100%;
@@ -68,4 +76,15 @@ input[type=button] {
     color: white;
     margin-top: 15px;
     border: 1px solid lightsalmon;
+    background: linear-gradient(to bottom, lightsalmon, orange);
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    opacity: 0.9;
+}
+
+input[type=button]:active {
+    background: linear-gradient(to top, red, rgb(255, 128, 0));
+    border: yellow;
 }
