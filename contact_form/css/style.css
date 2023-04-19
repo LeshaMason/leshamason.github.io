@@ -34,6 +34,38 @@ p {
     font-weight: bolder;
 }
 
-#button {
+#first_name_id,
+#middle_name_id,
+#last_name_id,
+#email_id,
+#phone_number_id {
+    border: 0px;
+    border-bottom: 4px solid lightsalmon
+}
+
+#first_name_id:focus-visible,
+#middle_name_id:focus-visible,
+#last_name_id:focus-visible,
+#email_id:focus-visible,
+#phone_number_id:focus-visible {
+    outline: 0;
+    background-color: lightsalmon;
+    color: white;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightsalmon;
+    color: white;
+    font-weight: bold;
+    border: 2px solid lightsalmon;
+}
+
+input[type=button] {
+    background-color: lightsalmon;
+    color: white;
     margin-top: 15px;
+    border: 1px solid lightsalmon;
 }
