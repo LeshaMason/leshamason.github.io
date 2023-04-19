@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Form</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="grid_container">
+            <header>
+                <h1>Contact Us</h1>
+
+                <h5>Got a question? We'd love to hear
+                    from you. Send us a message and we'll
+                    respond as soon as possible.
+                </h5>
+            </header>
+            <main>
+                <form>
+                    <p>What can we help you with?</p>
+
+                    <select id="choice_id" name="choice">
+                        <option value="none" disabled selected>-Select what we can help you with-</option>
+                        <option value="finding_work">Finding Work</option>
+                        <option value="making_a_portfolio">Making a Portfolio</option>
+                        <option value="creating_a_poster">Creating a Poster</option>
+                        <option value="creating_a_website">Creating a Website</option>
+                    </select>
+
+                    <p>Your Name</p>
+
+                    <div>
+                        <label for="first_name_id">First Name:</label>
+                        <input type="text" id="first_name_id" name="first_name">
+                    </div>
+                    <div>
+                        <label for="middle_name_id">Middle Name</label>
+                        <input type="text" id="middle_name_id" name="middle_name">
+                    </div>
+                    <div>
+                        <label for="last_name_id">Last Name:</label>
+                        <input type="text" id="last_name_id" name="last_name">
+                    </div>
+
+                    <p>Your Email</p>
+
+                    <div>
+                        <label for="email_id"></label>
+                        <input type="text" id="email_id" name="email">
+                    </div>
+
+                    <p>Your Phone Number</p>
+
+                    <div>
+                        <label for="phone_number_id"></label>
+                        <input type="text" id="phone_number_id" name="phone_number">
+                    </div>
+
+                    <p>Message</p>
+
+                    <label for="message_id"></label>
+                    <input type="text" id="message_id" name="message">
+
+                    <div id="button">
+                        <input type="button" value="Submit">
+                    </div>
+                </form>
+            </main>
+        </section>
+    </body>
+</html>
