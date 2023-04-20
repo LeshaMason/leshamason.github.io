@@ -1,0 +1,107 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+        ". header_area ."
+        ". main_area .";
+}
+
+header {
+    grid-area: header_area;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+#first_name_id,
+#last_name_id {
+    width: 43%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#phone_number_email {
+    width: 95%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#password_id {
+    width: 91%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.number_email {
+    text-align: center;
+    padding: 12px;
+    
+}
+
+.password {
+    text-align: center;
+}
+
+.birthdate {
+    display: flex;
+    justify-content: center;
+}
+
+#month_id,
+#day_id,
+#year_id {
+    width: 30%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.female_choice,
+.male_choice,
+.custom_choice {
+    display: flex;
+    justify-content: center;
+    
+}
+
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+form {
+    background-color: white;
+    border: 2px solid #CCCC;
+    padding: 20px;
+}
+
+input:not(focus):not(:placeholder-shown):invalid {
+    background-color: rgb(255, 74, 74);
+}
+
+input:not(focus):not(:placeholder-shown):valid {
+    background-color: rgb(79, 182, 132);
+}
+
+input[type=submit] {
+    background-color: lightsalmon;
+    color: white;
+    margin-top: 15px;
+    border: 1px solid lightsalmon;
+    background: linear-gradient(to bottom, lightsalmon, orange);
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: 0.9;
+}
+
+input[type=submit]:active {
+    background: linear-gradient(to top, red, rgb(255, 128, 0));
+    border: yellow;
+}

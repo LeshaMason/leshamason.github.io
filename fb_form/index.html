@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Form</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="grid_container">
+            <img src="....">
+            <main>
+                <form method="POST" action="https://getform.io/f/3d10cc97-70d4-4ea7-b6c0-fc236a83559b">
+                    <header>
+                        <h1>Create a new account</h1>
+                        <p>It's quick and easy.</p>
+                    </header>
+                    <hr>
+                        <div class="names">
+                            <input
+                                required
+                                minlength="2"
+                                maxlength="20" 
+                                type="text" 
+                                id="first_name_id" 
+                                name="first_name"
+                                placeholder="First name">
+                        
+                            <input
+                                required
+                                minlength="2"
+                                maxlength="20"  
+                                type="text" 
+                                id="last_name_id" 
+                                name="last_name"
+                                placeholder="Last name">
+                        </div>
+
+                        <div class="number_email">
+                            <input
+                                required
+                                minlength="2"
+                                maxlength="30" 
+                                type="text" 
+                                id="phone_number_email" 
+                                name="phone_number_email"
+                                placeholder="Mobile number or email">
+                        </div>
+                        
+                        <div class="password">
+                            <input 
+                            required
+                            minlength="2"
+                            maxlength="15"
+                            type="text" 
+                            id="password_id" 
+                            name="password"
+                            placeholder="New password">
+                        </div>
+                        
+                        <p>Brithday</p>
+
+                        <div class="birthdate">
+                            <select id="month_id" name="month">
+                                <option value="january">Jan</option>
+                                <option value="feburary">Feb</option>
+                                <option value="march">Mar</option>
+                            </select>
+
+                            <select id="day_id" name="day">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+
+                            <select id="year_id" name="year">
+                                <option value="1999">1999</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                            </select>
+                        </div>
+                        
+                        <p>Gender</p>
+
+                        <div class="female_choice">
+                            <input type="radio" id="female_id" name="gender" value="female">
+                            <label for="female_id">Female</label>
+                        </div>
+
+                        <div class="male_choice">
+                            <input type="radio" id="male_id" name="gender" value="male">
+                            <label for="male_id">Male</label>
+                        </div>
+                        
+                        <div class="custom_choice">
+                            <input type="radio" id="custom_id" name="gender" value="custom">
+                            <label for="custom_id">Custom</label>
+                        </div>
+                        
+                        <p>
+                            People who use our service may have uploaded your contact information to Facebook. Learn more.
+                        </p>
+
+                        <p>
+                            By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.
+                        </p>
+
+                        <div id="button">
+                            <input type="submit" value="Sign Up">
+                        </div>   
+                </form>
+            </main>
+        </section>
+    </body>
+</html>
