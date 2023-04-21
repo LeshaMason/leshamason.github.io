@@ -61,10 +61,10 @@ div {
 .female_choice,
 .male_choice,
 .custom_choice {
-    display: flex;
-    justify-content: center;
-    
+    border: 1px solid #727272cc;
 }
+
+
 
 main {
     grid-area: main_area;
