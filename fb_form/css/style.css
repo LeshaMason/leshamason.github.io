@@ -6,12 +6,25 @@
         ". main_area .";
 }
 
-header {
-    grid-area: header_area;
+div {
     text-align: center;
 }
 
-div {
+p {
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+}
+
+header {
+    grid-area: header_area;
     text-align: center;
 }
 
@@ -58,13 +71,19 @@ div {
     margin: 5px;
 }
 
+.gender {
+    display: flex;
+    justify-content: center;
+}
+
 .female_choice,
 .male_choice,
 .custom_choice {
     border: 1px solid #727272cc;
+    width: 26%; 
+    padding: 10px;
+    margin: 5px;
 }
-
-
 
 main {
     grid-area: main_area;
@@ -78,6 +97,16 @@ form {
     background-color: white;
     border: 2px solid #CCCC;
     padding: 20px;
+    box-shadow: 1px 0px 5px 0px grey;
+    border-radius: 10px;
+}
+
+#link {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
 }
 
 input:not(focus):not(:placeholder-shown):invalid {
@@ -89,11 +118,14 @@ input:not(focus):not(:placeholder-shown):valid {
 }
 
 input[type=submit] {
-    background-color: lightsalmon;
+    width: 30%;
+    padding: 13px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(23, 143, 41);
     color: white;
-    margin-top: 15px;
-    border: 1px solid lightsalmon;
-    background: linear-gradient(to bottom, lightsalmon, orange);
+    margin: 15px;
+    border: 1px solid rgb(23, 143, 41);
     cursor: pointer;
 }
 
@@ -102,6 +134,5 @@ input[type=submit]:hover {
 }
 
 input[type=submit]:active {
-    background: linear-gradient(to top, red, rgb(255, 128, 0));
-    border: yellow;
+    background: linear-gradient(to top, rgb(106, 238, 126), rgb(23, 143, 41));
 }

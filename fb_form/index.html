@@ -4,12 +4,14 @@
         <meta charset="UTF-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Contact Form</title>
+        <title>Facebook Sign Up Form</title>
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
+        <div class="logo">
+            <img src="images/fb_logo.svg">
+        </div>
         <section id="grid_container">
-            <img src="....">
             <main>
                 <form>
                     <header>
@@ -82,34 +84,36 @@
                         </div>
                         
                         <p>Gender</p>
+                        <div class="gender">
+                            <div class="female_choice">
+                                <input type="radio" id="female_id" name="gender" value="female">
+                                <label for="female_id">Female</label>
+                            </div>
 
-                        <div class="female_choice">
-                            <input type="radio" id="female_id" name="gender" value="female">
-                            <label for="female_id">Female</label>
-                        </div>
+                            <div class="male_choice">
+                                <input type="radio" id="male_id" name="gender" value="male">
+                                <label for="male_id">Male</label>
+                            </div>
 
-                        <div class="male_choice">
-                            <input type="radio" id="male_id" name="gender" value="male">
-                            <label for="male_id">Male</label>
+                            <div class="custom_choice">
+                                <input type="radio" id="custom_id" name="gender" value="custom">
+                                <label for="custom_id">Custom</label>
+                            </div>
                         </div>
-
-                        <div class="custom_choice">
-                            <input type="radio" id="custom_id" name="gender" value="custom">
-                            <label for="custom_id">Custom</label>
-                        </div>
-                        
                         <p>
-                            People who use our service may have uploaded your contact information to Facebook. Learn more.
+                            People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more</a>.
                         </p>
 
                         <p>
-                            By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.
+                            By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.
                         </p>
 
                         <div id="button">
                             <input type="submit" value="Sign Up">
                         </div>   
-                        <link href="">
+                        <div id="link">
+                            <a href="#">Already have an account?</a>
+                        </div>
                 </form>
             </main>
         </section>
