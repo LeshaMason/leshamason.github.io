@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    top: 0px;
+    display: flex;
+}
+
+#log_in {
+    margin-left: auto;
+}
+
+#hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/hulu-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav_2 {
+    display: flex;
+    padding: 30px;
+    background-color: black;
+}
+
+.nav_2 img {
+    height: 70px
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#four_cards {
+    display: flex;
+}
+
+#four_cards {
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+
+}
+
+.card_1 {
+    background-image: url("../images/bobsburgers.jpeg");
+    background-size: cover;
+    height: 80vh;
+}
+
