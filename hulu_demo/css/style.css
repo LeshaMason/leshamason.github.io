@@ -194,17 +194,23 @@ footer img {
 }
 
 #prey {
-    background-image: url("../images/prey.jpeg");
+    background-image: 
+    linear-gradient(to bottom, #000000DD, #00000000 40%),
+    url("../images/prey.jpeg");
     background-size: contain;
 }
 
 #handmaids_tale {
-    background-image: url("../images/handmaidstale.jpeg");
+    background-image: 
+    linear-gradient(to bottom, #000000DD, #00000000 40%),
+    url("../images/handmaidstale.jpeg");
     background-size: contain;
 }
 
 #dragon {
-    background-image: url("../images/houseofdragon.jpeg");
+    background-image: 
+    linear-gradient(to bottom, #000000DD, #00000000 40%),
+    url("../images/houseofdragon.jpeg");
     background-size: contain;
 }
 
