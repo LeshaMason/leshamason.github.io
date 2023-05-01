@@ -122,10 +122,11 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     flex: wrap;
+    justify-content: center;
 }
 
 .gallery img {
-    height: 200px;
+    height: 250px;
     margin: 5px;
     flex: 1 0 auto;
     object-fit: cover;
