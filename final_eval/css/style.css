@@ -47,6 +47,10 @@ nav a {
     padding-bottom: 15px;
 }
 
+.first_image {
+    padding-top: 90px;
+}
+
 #hero_content img {
     width: 350px;
     padding-bottom: 40px;
@@ -72,6 +76,13 @@ nav a {
     width: 200px;
     background-color: rgb(32, 137, 212);
     color: white;
+    border-radius: 3px;
+    transition: background-color 0.5s;
+}
+
+#submit_id:hover {
+    background-color: rgb(59, 150, 215);
+    cursor: pointer;
 }
 
 .blue_button_link {
@@ -82,13 +93,25 @@ nav a {
     font-weight: normal;
     font-size: 14px;
     padding: 16px;
-    border-radius: 6px;
+    border-radius: 3px;
     text-align: center;
+    transition: background-color 0.5s;
+}
+
+.blue_button_link:hover {
+    background-color: rgb(59, 150, 215);
 }
 
 .black_button_link {
     border: 1px solid white;
     padding: 16px;
+    border-radius: 3px;
+    transition: background-color 0.5s;
+}
+
+.black_button_link:hover {
+    background-color: white;
+    color: black;
 }
 
 .small_link,
@@ -148,4 +171,13 @@ footer img {
 footer p {
     color: white;
     font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
