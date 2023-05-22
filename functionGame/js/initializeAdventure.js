@@ -88,7 +88,7 @@ function updatePlayer() {
   player.style.top = playerY*BLOCK_SIZE + 'px';
   player.style.left = playerX*BLOCK_SIZE + 'px';
   if (isPlayerAttacking()) {
-    player.src = 'images/cat.jpg';
+    player.src = 'images/cat_attack.jpg';
   } else {
     switch(playerDirection) {
       case UP:

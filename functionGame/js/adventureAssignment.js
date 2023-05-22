@@ -17,67 +17,67 @@
 // or presses the 'a' or left arrow key
 function pressMoveLeftButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    moveLeft ();
+    moveLeft (1);
 }
 
 // This function will run when the user clicks the "Move Right" button,
 // or presses the 'd' or right arrow key
 function pressMoveRightButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    moveRight();
+    moveRight(1);
 }
 
 // This function will run when the user clicks the "Move Down" button,
 // or presses the 's' or down arrow key
 function pressMoveDownButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    moveDown();
+    moveDown(1);
 }
 
 // This function will run when the user clicks the "Move Up" button,
 // or presses the 'w' or up arrow key
 function pressMoveUpButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    moveUp();
+    moveUp(1);
 }
 
 // This function will run when the user clicks the "Attack!" button,
 // or presses the spacebar on the keyboard
 function pressAttackButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    attack();
+    attack(1);
 }
 
 // This function will run when the user clicks the "Jump Up" button,
 // or presses SHIFT and the 'w' key
 function pressJumpUpButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    jumpUp();
+    jumpUp(3);
 }
 
 // This function will run when the user clicks the "Jump Down" button,
 // or presses SHIFT and the 's' key
 function pressJumpDownButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    jumpDown();
+    jumpDown(3);
 }
 
 // This function will run when the user clicks the "Jump Left" button,
 // or presses SHIFT and the 'a' key
 function pressJumpLeftButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    jumpLeft();
+    jumpLeft(3);
 }
 
 // This function will run when the user clicks the "Jump Right" button,
 // or presses SHIFT and the 'd' key
 function pressJumpRightButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    jumpRight();
+    jumpRight(3);
 }
 
 // This function will run when the user clicks the "Jump!" button
 function pressJumpButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    jump();
+    jump(3);
 }
