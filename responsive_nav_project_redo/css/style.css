@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    background-color: #040405;
+}
+
+nav {
+    background-color: rgb(41, 41, 41);
+    position: sticky;
+    top: 0px;
+    border: 3px solid rgb(41, 41, 41);
+}
+
+#name {
+    margin-right: auto;
+    font-weight: bolder;
+    font-style: oblique;
+    color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    list-style-type: none;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+ul li {
+    padding: 30px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+
+.dropdown_container {
+    position: relative;
+}
+
+.dropdown_menu {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    left: 0px;
+    top: 75%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.3s, 
+        visibility 0.3s,
+        top 0.3s;
+}
+
+.dropdown_container:hover .dropdown_menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+#hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/BBQ1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#hero a,
+.card a {
+    background-color: #ff5454;
+    color: white;
+    border: 2px solid #ff5454;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    min-width: 150px;
+    transition: transform 0.25s;
+    text-decoration: none;
+    font-family: 'montserrat';
+}
+
+#hero a:hover,
+.card a:hover {
+    transform: scale(1.1);
+}
+
+#cards_section {
+    text-align: center;
+    margin-top: 90px;
+}
+
+#cards_section h2,
+#cards_section p,
+#cards_section h6,
+#cards_section h4 {
+    color: white;
+}
+
+#cards_section p {
+    width: 700px;
+    margin: 0px auto;
+}
+
+#cards_section h2 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#cards_container {
+    display: grid;
+    grid-template-columns: repeat(4, 295px);
+    grid-auto-rows: 450px;
+    grid-gap: 24px;
+    width: 1252px;
+    margin: 60px auto;
+    text-align: left;
+}
+
+#cards_container div {
+    padding-left: 24px;
+}
+
+#cards_container h6 {
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+#cards_container h4 {
+    font-size: 22px;
+    margin-top: 0px;
+}
+
+#bobs_burgers {
+    background-image: 
+        linear-gradient(to bottom, #000000DD, #00000000 40%),
+        url("../images/BBQ2.jpg");
+    background-size: contain;
+}
+
+#prey {
+    background-image: 
+    linear-gradient(to bottom, #000000DD, #00000000 40%),
+    url("../images/BBQ3.jpg");
+    background-size: contain;
+}
+
+#handmaids_tale {
+    background-image: 
+    linear-gradient(to bottom, #000000DD, #00000000 40%),
+    url("../images/BBQ4.jpg");
+    background-size: contain;
+}
+
+#dragon {
+    background-image: 
+    linear-gradient(to bottom, #000000DD, #00000000 40%),
+    url("../images/BBQ5.jpg");
+    background-size: contain;
+}
