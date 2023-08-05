@@ -1,3 +1,7 @@
+/* Google Font API imports - found at https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Secular+One&display=swap');
+
+
 body {
     margin: 0px;
     background-color: whitesmoke;
@@ -310,7 +314,7 @@ input[type=submit]:active {
     background: linear-gradient(to top, rgb(255, 94, 94), rgb(184, 42, 42));
 }
 
-/** Carosuel **/
+/** Carousel **/
 
 .carousel-item {
     height: 400px;
