@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: #040405;
+    background-color: whitesmoke;
 }
 
 nav {
@@ -101,10 +101,13 @@ li a {
 }
 
 #cards_section h2,
-#cards_section p,
+#cards_section p {
+    color: rgb(41, 41, 41);
+}
+
 #cards_section h6,
 #cards_section h4 {
-    color: white;
+    color: whitesmoke;
 }
 
 #cards_section p {
@@ -120,7 +123,7 @@ li a {
 #cards_container {
     display: grid;
     grid-template-columns: repeat(4, 295px);
-    grid-auto-rows: 450px;
+    grid-auto-rows: 197px;
     grid-gap: 24px;
     width: 1252px;
     margin: 60px auto;
@@ -167,4 +170,149 @@ li a {
     linear-gradient(to bottom, #000000DD, #00000000 40%),
     url("../images/BBQ5.jpg");
     background-size: contain;
+}
+
+/** Contact stuff **/
+
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+        ". header_area ."
+        ". main_area .";
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+}
+
+header {
+    grid-area: header_area;
+    text-align: center;
+}
+
+#first_name_id,
+#last_name_id {
+    width: 43%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#phone_number_email {
+    width: 95%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#password_id {
+    width: 91%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.number_email {
+    text-align: center;
+    padding: 12px;
+    
+}
+
+.password {
+    text-align: center;
+}
+
+.birthdate {
+    display: flex;
+    justify-content: center;
+}
+
+#month_id,
+#day_id,
+#year_id {
+    width: 30%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.gender {
+    display: flex;
+    justify-content: center;
+}
+
+.female_choice,
+.male_choice,
+.custom_choice {
+    border: 1px solid #727272cc;
+    width: 26%; 
+    padding: 10px;
+    margin: 5px;
+}
+
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+form {
+    padding: 20px;
+}
+
+#link {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:not(focus):not(:placeholder-shown):invalid {
+    background-color: rgb(255, 74, 74);
+}
+
+input:not(focus):not(:placeholder-shown):valid {
+    background-color: rgb(79, 182, 132);
+}
+
+input[type=submit] {
+    width: 30%;
+    padding: 13px;
+    font-size: 20px;
+    border-radius: 70px;
+    background-color: rgb(255, 94, 94);
+    color: white;
+    margin: 15px;
+    border: 1px solid rgb(255, 94, 94);
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+input[type=submit]:hover {
+    transform: scale(1.1);
+}
+
+input[type=submit]:active {
+    background: linear-gradient(to top, rgb(255, 94, 94), rgb(184, 42, 42));
+}
+
+/** Carosuel **/
+
+.carousel-item {
+    height: 400px;
+    padding: 24px;
 }
