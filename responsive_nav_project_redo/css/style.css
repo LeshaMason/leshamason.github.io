@@ -99,6 +99,24 @@ li a {
     transform: scale(1.1);
 }
 
+#placeholder_info {
+    padding: 35px;
+    text-align: center;
+}
+
+#my_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+}
+
+#my_gallery img {
+    height: 200px;
+    margin: 12px;
+    flex: 1 0 auto;
+    object-fit: cover;
+}
+
 #cards_section {
     text-align: center;
     margin-top: 90px;
