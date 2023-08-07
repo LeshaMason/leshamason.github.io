@@ -66,6 +66,46 @@ li a {
     top: 100%;
 }
 
+/** Footer **/
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 41, 41);
+}
+
+footer a {
+    color:  whitesmoke;
+}
+
+/** Hero **/
+
+#hero_3 {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/heroimage_3.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#hero_2 {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/heroimage_2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
 #hero {
     height: 80vh;
     display: flex;
@@ -81,9 +121,6 @@ li a {
 
 #hero a,
 .card a {
-    background-color: #ff5454;
-    color: white;
-    border: 2px solid #ff5454;
     border-radius: 24px;
     display: inline-block;
     padding: 8px 16px;
@@ -91,7 +128,6 @@ li a {
     min-width: 150px;
     transition: transform 0.25s;
     text-decoration: none;
-    font-family: 'montserrat';
 }
 
 #hero a:hover,
@@ -99,8 +135,12 @@ li a {
     transform: scale(1.1);
 }
 
+/** gallery **/
+
 #placeholder_info {
     padding: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
     text-align: center;
 }
 
@@ -212,11 +252,6 @@ p {
     margin-left: 20px;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-}
-
 img {
     width: 350px;
 }
@@ -253,34 +288,6 @@ header {
 
 .password {
     text-align: center;
-}
-
-.birthdate {
-    display: flex;
-    justify-content: center;
-}
-
-#month_id,
-#day_id,
-#year_id {
-    width: 30%;
-    padding: 10px;
-    font-size: 15px;
-    margin: 5px;
-}
-
-.gender {
-    display: flex;
-    justify-content: center;
-}
-
-.female_choice,
-.male_choice,
-.custom_choice {
-    border: 1px solid #727272cc;
-    width: 26%; 
-    padding: 10px;
-    margin: 5px;
 }
 
 main {
