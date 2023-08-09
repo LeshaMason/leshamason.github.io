@@ -9,7 +9,6 @@ body {
 
 nav {
     background-color: rgb(41, 41, 41);
-    position: sticky;
     top: 0px;
     border: 3px solid rgb(41, 41, 41);
 }
@@ -364,8 +363,6 @@ footer a {
 div {
     text-align: center;
 }
-
-/** dumbass code from contact info HERE!!! **/
 
 header {
     grid-area: header_area;
